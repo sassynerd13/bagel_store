@@ -1,10 +1,10 @@
-== README
-
 # Bob's Bagels
 
 E-Commerce site for bagel restaurant
 
-Check out the live app on [Heroku](http://bobsbagels.herokuapp.com)
+Check out group's version of the live app on [Heroku](http://bobsbagels.herokuapp.com)
+
+And my personal version [here] (http://http://bobsbagels.herokuapp.com)
 
 ## Features
 
@@ -15,11 +15,11 @@ Check out the live app on [Heroku](http://bobsbagels.herokuapp.com)
 
 ## Description
 
-This project was created to meet requirements for Project 2 in General Assembly's Web Development Immersive Program (June 2014).
+This project was created to fulfill requirements for Project 2 during General Assembly's Web Development Immersive Program (July 2014).
 
-Intended to test our ability to work in groups of three create a functional Rails app on a specified topic.
+Intended to test our ability to work in a group of three people to create a functional Rails app to meet a 'client' list of specifications.
 
-This project was conceptualized, scoped and developed in one week.
+This project was originally conceptualized, scoped and developed in one week, with added changes being made over an additional week
 
 ## Installation
 
