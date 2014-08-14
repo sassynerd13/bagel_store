@@ -13,15 +13,15 @@ class ChargesController < ApplicationController
     @amount = (@order.total_price*100).to_i
 
     customer = Stripe::Customer.create(
-      :email => 'example@stripe.com',
-      :card  => params[:stripeToken]
+      email: 'example@stripe.com',
+      card:   params[:stripeToken]
     )
 
     charge = Stripe::Charge.create(
-      :customer    => customer.id,
-      :amount      => @amount,
-      :description => 'Rails Stripe customer',
-      :currency    => 'usd'
+      customer:     customer.id,
+      amount:       @amount,
+      description:  'Rails Stripe customer',
+      currency:     'usd'
     )
 
   @order.is_purchased = true
