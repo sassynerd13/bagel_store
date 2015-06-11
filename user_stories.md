@@ -1,5 +1,5 @@
 # User Stories
-Below are prelimainary user stories to be used in TDD
+Below are preliminary user stories to be used in TDD
 
 
 ## Guest User
